@@ -1,0 +1,6 @@
+openai
+pyimgur
+requests
+opencv-python
+tensorflow
+jinja2

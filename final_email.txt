@@ -1,0 +1,194 @@
+final_email = f'''
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {{
+            font-family: 'Inter', sans-serif;
+        }}
+
+        @font-face {{
+            font-family: 'SophiaFrancesca';
+            src: url('/SophiaFrancesca.ttf') format('truetype');
+        }}
+        @font-face {{
+            font-family: 'Brimons';
+            src: url('https://anonymfile.com/V9DB/brimons.ttf') format('truetype');
+        }}
+        @font-face {{
+            font-family: 'Calimate';
+            src: url('/Users/rishabhsharma/PycharmProjects/EmailTemplate/Calimate-Book.ttf') format('truetype');
+        }}
+        .email-content {{
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 70%;
+            text-align: center;
+        }}
+        .subject {{
+            font-family: 'Inter', sans-serif;
+            font-size: 2em;
+            color: #333;
+        }}
+        .call-to-action {{
+            font-family: 'Calimate', sans-serif;
+            font-size: 0.84em;
+            color: #333;
+        }}
+        .social-icons {{
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+        }}
+        .fa {{
+            padding: 10px;
+            font-size: 20px;
+            width: 20px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
+        }}
+        .fa:hover {{
+            opacity: 0.7;
+        }}
+        .fa-facebook {{
+            background: #1f2021;
+            color: white;
+        }}
+        .fa-twitter {{
+            background: #1f2021;
+            color: white;
+        }}
+        .fa-google {{
+            background: #1f2021;
+            color: white;
+        }}
+        .fa-youtube {{
+            background: #1f2021;
+            color: white;
+        }}
+        .fa-instagram {{
+            background: #1f2021;
+            color: white;
+        }}
+    </style>
+</head>
+
+<body>
+    <div style="position: relative; text-align: center;">
+        <img src="{generated_image}" alt="Generated Image">
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 60%; height: 95%;">
+            <div style="background-color: #fff; width: 100%; height: 100%; border-radius: 10px; position: absolute; top: 0; left: 0;">
+                <div style="position: absolute; top: 10px; right: 10px;">
+                    <img src="https://i.imgur.com/kBvT72z.png" alt="Generated Logo" style="width: 50px; height: 50px; object-fit: cover; border-radius: 50%; border: 2px solid grey;">
+                </div>
+            </div>
+            <div class="email-content">
+                <br>
+                <div class="subject"><h3>{subject_title}</h3></div>
+                <br>
+                <div class="call-to-action">{call_to_action_text}</div>
+            </div>
+            <div class="social-icons" style="height: 50px; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 10px 0; position: absolute; bottom: 60px;">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <a href="#" class="fa fa-facebook" style="color: white;"></a>
+                <a href="#" class="fa fa-twitter" style="color: white;"></a>
+                <a href="#" class="fa fa-google" style="color: white;"></a>
+                <a href="#" class="fa fa-instagram" style="color: white;"></a>
+            </div>
+            <div class="copyright" style="text-align: center; font-size: 10px; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 100%;">
+                <p>© Copyright Your Brand Name 2023.</p>
+                <p> All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>'''
+
+
+
+
+
+
+
+
+
+
+final_email = f'''
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        @font-face {{
+            font-family: 'SophiaFrancesca';
+            src: url('/SophiaFrancesca.ttf') format('truetype');
+        }}
+        @font-face {{
+            font-family: 'Brimons';
+            src: url('https://anonymfile.com/V9DB/brimons.ttf') format('truetype');
+        }}
+        @font-face {{
+            font-family: 'Calimate';
+            src: url('/Users/rishabhsharma/PycharmProjects/EmailTemplate/Calimate-Book.ttf') format('truetype');
+        }}
+
+    </style>
+</head>
+
+<body style="font-family: 'Inter', sans-serif;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+            <tr>
+                <td background="{generated_image}" width="1024" height="1024" valign="top" class="bgresize">
+
+                    <!--[if gte mso 9]>
+                        <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:300px;">
+                            <v:fill type="tile" src="{generated_image}" color="#ddf3e9" />
+                            <v:textbox inset="0,0,0,0">
+                    <![endif]-->
+
+                    <div>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                                <tr>
+                                    <td width="42" align="left" valign="top" class="mobile-hidden"></td>
+                                    <td align="left" valign="top" class="mobile-padding">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="left" valign="top" style="padding-top: 95px;" class="padding65"><span class="banner-heading55" style="font-weight: bold;">{' ' * 42}{subject_title}</span></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!--[if gte mso 9]>
+                        </v:textbox>
+                    </v:rect>
+                    <![endif]-->
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
+'''

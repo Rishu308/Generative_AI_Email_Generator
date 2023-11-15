@@ -1,0 +1,11 @@
+venv/
+my_venv/
+__pycache__/
+token files/
+.idea/
+*.jpg
+Brimons.ttf
+Calimate-Book.ttf
+SophiaFrancesca.ttf
+email_run.sh
+.DS_Store
